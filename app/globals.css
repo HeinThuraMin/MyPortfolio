@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --ink: #0d0d1a;
+  --muted: #5d5d73;
+  --p1: #4f46e5;
+  --p2: #7c4dff;
+  --soft: #f7f7fd;
+  --line: #e8e8f3;
+}
+
+/* shadcn/ui tokens (used by components/ui/*) */
+:root {
+  --background: #ffffff;
+  --foreground: #0d0d1a;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --secondary: #f7f7fd;
+  --secondary-foreground: #0d0d1a;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --ring: #7c4dff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-ring: var(--ring);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-p1: var(--p1);
+  --color-p2: var(--p2);
+  --color-soft: var(--soft);
+  --color-line: var(--line);
+  --font-sans: var(--font-rubik);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+body {
+  background: #fff;
+  color: var(--ink);
+  font-family: var(--font-rubik), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+.grad {
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+}
+.grad-text {
+  background: linear-gradient(135deg, var(--p1), var(--p2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.reveal.in {
+  opacity: 1;
+  transform: none;
+}
+
+@keyframes float {
+  50% { transform: translateY(-12px); }
+}
+@keyframes morph {
+  50% { border-radius: 42% 58% 40% 60% / 55% 45% 55% 45%; }
+}
+@keyframes marquee {
+  to { transform: translateX(-100%); }
+}
+.animate-marquee { animation: marquee 40s linear infinite; }
+.float { animation: float 6s ease-in-out infinite; }
+.morph { animation: morph 12s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, .reveal { animation: none !important; transition: none !important; }
+  .reveal { opacity: 1; transform: none; }
+}
