@@ -51,6 +51,7 @@ export default function Hero() {
             width={736}
             height={981}
             priority
+            unoptimized
             className="float relative h-auto w-full"
           />
         </div>
