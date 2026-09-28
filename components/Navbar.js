@@ -36,7 +36,7 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-[78px] w-[min(1140px,100%-40px)] items-center justify-between">
         <a href="#home" className="grad-text text-3xl font-extrabold tracking-tight">
-          HEIN<span className="text-p2">.</span>
+          HeinThuraMin<span className="text-p2"></span>
         </a>
 
         <button
