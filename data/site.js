@@ -6,7 +6,6 @@ export const profile = {
   role: "Data Engineer · Full-Stack Developer",
   location: "Singapore",
   email: "heinthuraminn@gmail.com",
-  phone: "+65 8160 3390",
   github: "https://github.com/HeinThuraMin",
   linkedin: "https://linkedin.com/in/hein-thura-min-3b9795281",
   intro:

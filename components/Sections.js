@@ -134,7 +134,6 @@ export function Certifications() {
 export function Contact() {
   const links = [
     [profile.email, `mailto:${profile.email}`],
-    [profile.phone, `tel:${profile.phone.replace(/\s/g, "")}`],
     ["GitHub", profile.github],
     ["LinkedIn", profile.linkedin],
   ];
