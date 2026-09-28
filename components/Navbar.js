@@ -51,7 +51,7 @@ export default function Navbar() {
         </button>
 
         <nav
-          className={`fixed inset-x-0 top-[78px] -z-10 flex flex-col bg-white px-5 pb-5 shadow-xl transition md:static md:z-auto md:translate-y-0 md:flex-row md:gap-8 md:bg-transparent md:p-0 md:shadow-none ${
+          className={`fixed inset-x-0 top-[78px] -z-10 flex flex-col bg-white px-5 pb-5 shadow-xl transition md:static md:z-auto md:translate-y-0 md:flex-row md:gap-5 lg:gap-8 md:bg-transparent md:p-0 md:shadow-none ${
             open ? "translate-y-0" : "-translate-y-[130%]"
           }`}
         >

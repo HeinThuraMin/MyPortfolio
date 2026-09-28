@@ -125,7 +125,9 @@ export function Skills() {
 
 export function Certifications() {
   return (
-    <section id="certifications">
+    // negative scroll margin cancels the global scroll-padding so a nav click
+    // lands exactly where the pinned gallery starts
+    <section id="certifications" className="[scroll-margin-top:-80px]">
       <CertGallery certs={certs} />
     </section>
   );

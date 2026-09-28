@@ -29,6 +29,7 @@ export const nav = [
   ["Experience", "experience"],
   ["Projects", "projects"],
   ["Skills", "skills"],
+  ["Certifications", "certifications"],
   ["Contact", "contact"],
 ];
 
