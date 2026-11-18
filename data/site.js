@@ -34,7 +34,7 @@ export const nav = [
 
 export const stats = [
   ["2", "Hackathon awards"],
-  ["4", "Cloud & data certs"],
+  ["3", "Cloud & data certs"],
   ["7", "Projects built"],
 ];
 
@@ -139,7 +139,6 @@ export const skills = [
 ];
 
 export const certs = [
-  { title: "Solutions Architect – Associate", issuer: "AWS", tag: "Cloud", from: "#f59e0b", to: "#b45309" },
   { title: "Cloud Practitioner", issuer: "AWS · Sep 2026", tag: "Cloud", from: "#fb923c", to: "#9a3412" },
   { title: "Data Engineering Professional Certificate", issuer: "IBM · Oct 2026", tag: "Data", from: "#3b82f6", to: "#1e3a8a" },
   { title: "Data Analytics Specialization", issuer: "Google · Mar 2024", tag: "Data", from: "#22c55e", to: "#166534" },
