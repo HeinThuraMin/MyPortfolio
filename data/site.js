@@ -3,14 +3,13 @@ const unsplash = (id) =>
 
 export const profile = {
   name: "Hein Thura Min",
-  role: "Data Engineer · Full-Stack Developer",
-  location: "Singapore",
+  role: "Test Automation Engineer · Data Engineer",
+  location: "Yangon, Myanmar",
   email: "heinthuraminn@gmail.com",
   github: "https://github.com/HeinThuraMin",
   linkedin: "https://linkedin.com/in/hein-thura-min-3b9795281",
   intro:
-    "Fresh Graduate CS student (AI & Big Data) in Singapore. I build web apps, data pipelines and AI-powered products, and won the Community Choice and Microsoft Stack awards at a hackathon.",
-  // Fill in the empty urls to enable those icons' links
+    "Fresh Graduate CS student (AI & Big Data) and Test Automation Engineer in Yangon, Myanmar. I build web apps, data pipelines and AI-powered products, and won the Community Choice and Microsoft Stack awards at a hackathon.",
   socials: [
     { name: "Facebook", url: "https://www.facebook.com/gypsyveno.veno.1" },
     { name: "Instagram", url: "https://www.instagram.com/friedvermicelli/" },
@@ -18,8 +17,8 @@ export const profile = {
     { name: "GitHub", url: "https://github.com/HeinThuraMin" },
   ],
   about: [
-    "I'm a Computer Science student (AI & Big Data Management) at the University of Wollongong, studying through SIM Global Education in Singapore. I currently work as an IT Support / Junior Data Engineer, writing Python and PowerShell to automate reporting and keeping SQL Server / Azure SQL databases healthy.",
-    "Before that I worked as a junior developer on React, Node.js and SQL projects. Outside of work I lead teams on projects like Krewby, a workforce management SaaS, and Emochi, an emotional AI companion.",
+    "I'm a Computer Science (AI & Big Data Management) student at the University of Wollongong, studying through SIM Global Education in Singapore. Since November 2026 I've worked as a Test Automation Engineer at Brillar in Yangon.",
+    "Before that I was an IT Support / Junior Data Engineer at B8 ICT Solutions, writing Python and PowerShell to automate reporting and keeping SQL Server / Azure SQL databases healthy, and earlier a junior developer on React, Node.js and SQL projects. Outside of work I lead teams on projects like Krewby, a workforce management SaaS, and Emochi, an emotional AI companion.",
   ],
 };
 
@@ -41,7 +40,12 @@ export const stats = [
 
 export const experience = [
   {
-    date: "Nov 2025 – Present",
+    date: "Nov 2026 – Present",
+    title: "Test Automation Engineer",
+    org: "Brillar · Yangon, Myanmar · On-site",
+  },
+  {
+    date: "Nov 2025 – Oct 2026",
     title: "IT Support / Junior Data Engineer",
     org: "B8 ICT Solutions · Remote",
     points: [
@@ -136,9 +140,9 @@ export const skills = [
 
 export const certs = [
   { title: "Solutions Architect – Associate", issuer: "AWS", tag: "Cloud", from: "#f59e0b", to: "#b45309" },
-  { title: "Cloud Practitioner", issuer: "AWS", tag: "Cloud", from: "#fb923c", to: "#9a3412" },
-  { title: "Data Engineering Professional Certificate", issuer: "IBM", tag: "Data", from: "#3b82f6", to: "#1e3a8a" },
-  { title: "Data Analytics Specialization", issuer: "Google · Coursera", tag: "Data", from: "#22c55e", to: "#166534" },
+  { title: "Cloud Practitioner", issuer: "AWS · Sep 2026", tag: "Cloud", from: "#fb923c", to: "#9a3412" },
+  { title: "Data Engineering Professional Certificate", issuer: "IBM · Oct 2026", tag: "Data", from: "#3b82f6", to: "#1e3a8a" },
+  { title: "Data Analytics Specialization", issuer: "Google · Mar 2024", tag: "Data", from: "#22c55e", to: "#166534" },
   { title: "Oracle Database Foundation", issuer: "Simbolo · Aug 2023", tag: "Database", from: "#ef4444", to: "#7f1d1d" },
-  { title: "Introduction to Artificial Intelligence", issuer: "Simbolo · 2023", tag: "AI", from: "#a78bfa", to: "#4c1d95" },
+  { title: "Introduction to Artificial Intelligence", issuer: "Simbolo · Jan 2023", tag: "AI", from: "#a78bfa", to: "#4c1d95" },
 ];
