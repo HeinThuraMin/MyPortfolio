@@ -3,13 +3,13 @@ const unsplash = (id) =>
 
 export const profile = {
   name: "Hein Thura Min",
-  role: "Test Automation Engineer · Data Engineer",
+  role: "Test Automation Engineer",
   location: "Yangon, Myanmar",
   email: "heinthuraminn@gmail.com",
   github: "https://github.com/HeinThuraMin",
   linkedin: "https://linkedin.com/in/hein-thura-min-3b9795281",
   intro:
-    "Fresh Graduate CS student (AI & Big Data) and Test Automation Engineer in Yangon, Myanmar. I build web apps, data pipelines and AI-powered products, and won the Community Choice and Microsoft Stack awards at a hackathon.",
+    "Computer Science graduate (AI & Big Data) and Test Automation Engineer based in Yangon. I build web apps, data pipelines and AI-powered products, and my hackathon project won the Community Choice and Microsoft Stack awards.",
   socials: [
     { name: "Facebook", url: "https://www.facebook.com/gypsyveno.veno.1" },
     { name: "Instagram", url: "https://www.instagram.com/friedvermicelli/" },
@@ -17,8 +17,8 @@ export const profile = {
     { name: "GitHub", url: "https://github.com/HeinThuraMin" },
   ],
   about: [
-    "I'm a Computer Science (AI & Big Data Management) student at the University of Wollongong, studying through SIM Global Education in Singapore. Since November 2026 I've worked as a Test Automation Engineer at Brillar in Yangon.",
-    "Before that I was an IT Support / Junior Data Engineer at B8 ICT Solutions, writing Python and PowerShell to automate reporting and keeping SQL Server / Azure SQL databases healthy, and earlier a junior developer on React, Node.js and SQL projects. Outside of work I lead teams on projects like Krewby, a workforce management SaaS, and Emochi, an emotional AI companion.",
+    "I recently completed my Computer Science degree (AI & Big Data Management) at the University of Wollongong, studying through SIM Global Education in Singapore. Today I'm a Test Automation Engineer at Brillar in Yangon, making sure software works before it reaches users.",
+    "Before Brillar I worked as an IT Support / Junior Data Engineer at B8 ICT Solutions, automating reports with Python and PowerShell and looking after SQL Server and Azure SQL databases. Earlier I was a junior developer working with React, Node.js and SQL. Along the way I've led student teams on Krewby, a workforce management platform, and Emochi, an emotional AI companion.",
   ],
 };
 
